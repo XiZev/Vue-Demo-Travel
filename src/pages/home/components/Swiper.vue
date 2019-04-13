@@ -31,7 +31,8 @@ export default {
       swiperOption: {
         // pagination配置项，传入一个专门用于显示内容的div（.swiper-pagination）
         pagination: '.swiper-pagination',
-        loop: true
+        loop: true,
+        autoplay: 3000
       }
     }
   },
