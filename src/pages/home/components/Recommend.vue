@@ -35,29 +35,29 @@ export default {
       overflow: hidden
       display: flex
       height: 5.7rem
-    .item-img
-      width: 5.1rem
-      height: 5.1rem
-      padding: .3rem
-    .item-info
-      flex: 1
-      padding: .1rem
-      min-width: 0
-      .item-title
-        margin-top: .2rem
-        line-height: 1.2rem
-        font-size: 1rem
-        ellipsis()
-      .item-desc
-        margin-top: .5rem
-        line-height: 1.2rem
-        color: #ccc
-        ellipsis()
-      .item-button
-        line-height: 1.5rem
-        margin-top: .3rem
-        background: #ff9300
-        padding: .1rem .5rem
-        border-radius: .5rem
-        color: #fff
+      .item-img
+        width: 5.1rem
+        height: 5.1rem
+        padding: .3rem
+      .item-info
+        flex: 1
+        padding: .1rem
+        min-width: 0
+        .item-title
+          margin-top: .2rem
+          line-height: 1.2rem
+          font-size: 1rem
+          ellipsis()
+        .item-desc
+          margin-top: .5rem
+          line-height: 1.2rem
+          color: #ccc
+          ellipsis()
+        .item-button
+          line-height: 1.5rem
+          margin-top: .3rem
+          background: #ff9300
+          padding: .1rem .5rem
+          border-radius: .5rem
+          color: #fff
 </style>
