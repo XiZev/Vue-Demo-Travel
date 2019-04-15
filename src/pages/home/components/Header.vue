@@ -8,16 +8,22 @@
 <div class="header-input">
 <span class="iconfont">&#xe632;</span>输入城市/景点/游玩主题</div>
 <!--对icon元素进行位置优化新增class样式修饰  -->
+<router-link to='/city'>
 <div class="header-right">{{this.city}}<span class="iconfont arrow-icon">&#xe64a;</span></div>
+</router-link>
 </div>
 </template>
 
 <script>
+// import { mapState, mapGetters } from 'vuex'
+import { mapState } from 'vuex'
 // 导出组件，名字为HomeHeader
 export default {
   name: 'HomeHeader',
-  props: {
-    city: String
+  computed: {
+    // ...是展开运算符，mapState是把vuex的数据映射到这个组件的computed属性里
+    ...mapState(['city'])
+    // ...mapGetters(['doubleCity'])
   }
 }
 </script>
@@ -34,7 +40,7 @@ export default {
   @import '~styles/varibles.styl'
   .header
     display: flex
-    line-height: 1.86rem
+    line-height: $headerHeight
     // 全局使用背景颜色，可以定义变量然后在此处使用
     background: $bgColor
     color: #fff
@@ -55,9 +61,11 @@ export default {
       color: #ccc
       padding-left: .2rem
     .header-right
-      width: 5.64rem
+      min-width: 3.64rem
+      padding: 0 .3rem
       float: right
       text-align: center
+      color: #fff
       .arrow-icon
         margin-left: .2rem
         font-size: .84rem
