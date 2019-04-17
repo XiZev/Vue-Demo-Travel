@@ -1,0 +1,25 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "东部华侨城茶溪谷",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1902/80/80d7d3ef350b7fffa3.water.jpg_r_800x800_ad61c624.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1902/80/80d7d3ef350b7fffa3.water.jpg_r_800x800_ad61c624.jpg", "http://img1.qunarzz.com/sight/p0/1409/18/691791f00f29bce28a90f898d3faab1a.jpg_r_800x800_6f65375a.jpg"],
+    "categoryList": [{
+        "title": "成人票",
+        "children": [{
+          "title": "成人三馆联票",
+          "children": [{
+            "title": "成人三馆联票 - 某一连锁店销售"
+          }]
+        },{
+          "title": "成人五馆联票"
+        }]
+      }, {
+        "title": "学生票"
+      }, {
+        "title": "儿童票"
+      }, {
+        "title": "特惠票"
+      }]
+  }
+}
